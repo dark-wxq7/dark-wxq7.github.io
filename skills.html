@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Skills &amp; Experience | SHISH MOHAMMAD</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&amp;family=Hanken+Grotesk:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Theme Configuration -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "on-primary-container": "#00422b",
+                "surface-dim": "#051424",
+                "outline-variant": "#3c4a42",
+                "on-surface-variant": "#bbcabf",
+                "error": "#ffb4ab",
+                "surface-variant": "#273647",
+                "inverse-on-surface": "#233143",
+                "secondary-container": "#46464c",
+                "on-primary-fixed-variant": "#005236",
+                "tertiary-fixed": "#ffdad7",
+                "outline": "#86948a",
+                "surface-tint": "#4edea3",
+                "background": "#051424",
+                "surface-container-highest": "#273647",
+                "electric-blue": "#4285F4",
+                "primary-fixed-dim": "#4edea3",
+                "on-primary-fixed": "#002113",
+                "on-secondary-container": "#b5b4bb",
+                "on-secondary-fixed": "#1a1b20",
+                "on-tertiary-container": "#711419",
+                "on-secondary": "#2f3035",
+                "on-secondary-fixed-variant": "#46464c",
+                "on-error": "#690005",
+                "inverse-primary": "#006c49",
+                "on-tertiary": "#650911",
+                "surface-container-high": "#1c2b3c",
+                "glass-fill": "rgba(30, 41, 59, 0.7)",
+                "surface-bright": "#2c3a4c",
+                "tertiary-fixed-dim": "#ffb3af",
+                "on-tertiary-fixed-variant": "#842225",
+                "secondary": "#c7c6cd",
+                "on-surface": "#d4e4fa",
+                "surface": "#051424",
+                "primary-container": "#10b981",
+                "error-container": "#93000a",
+                "secondary-fixed-dim": "#c7c6cd",
+                "secondary-fixed": "#e3e2e9",
+                "tertiary-container": "#fc7c78",
+                "surface-charcoal": "#0F172A",
+                "surface-container-low": "#0d1c2d",
+                "border-glow": "rgba(16, 185, 129, 0.3)",
+                "inverse-surface": "#d4e4fa",
+                "on-primary": "#003824",
+                "on-error-container": "#ffdad6",
+                "primary-fixed": "#6ffbbe",
+                "surface-container": "#122131",
+                "on-background": "#d4e4fa",
+                "tertiary": "#ffb3af",
+                "terminal-emerald": "#10B981",
+                "on-tertiary-fixed": "#410005",
+                "surface-container-lowest": "#010f1f",
+                "primary": "#4edea3"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.125rem",
+                "lg": "0.25rem",
+                "xl": "0.5rem",
+                "full": "0.75rem"
+            },
+            "spacing": {
+                "margin-mobile": "20px",
+                "margin-desktop": "80px",
+                "unit": "4px",
+                "container-max": "1200px",
+                "gutter": "24px"
+            },
+            "fontFamily": {
+                "code-sm": ["JetBrains Mono"],
+                "body-md": ["Hanken Grotesk"],
+                "body-lg": ["Hanken Grotesk"],
+                "label-caps": ["JetBrains Mono"],
+                "headline-xl": ["JetBrains Mono"],
+                "headline-lg-mobile": ["JetBrains Mono"],
+                "headline-lg": ["JetBrains Mono"]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        body {
+            background-color: #051424;
+            background-image: 
+                linear-gradient(rgba(16, 185, 129, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(16, 185, 129, 0.05) 1px, transparent 1px);
+            background-size: 24px 24px;
+            color: #d4e4fa;
+        }
+
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .glass-card:hover {
+            border-color: rgba(16, 185, 129, 0.5);
+            box-shadow: 0 0 20px rgba(16, 185, 129, 0.1);
+        }
+
+        .scanline {
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #10B981, transparent);
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.5;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .terminal-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        @keyframes pulse-glow {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+        .animate-glow {
+            animation: pulse-glow 2s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md selection:bg-primary/30 selection:text-primary overflow-x-hidden">
+<!-- Top Navigation (TopAppBar Shared Component) -->
+<nav class="w-full sticky top-0 z-50 bg-glass-fill backdrop-blur-xl border-b border-outline-variant shadow-[0_0_20px_rgba(16,185,129,0.1)] transition-all duration-300 ease-in-out h-20">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex justify-between items-center h-full">
+<a href="index.html" class="font-headline-lg text-headline-lg text-primary tracking-tighter hover:opacity-80 transition-opacity">
+                SHISH_MOHAMMAD
+            </a>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors" href="projects.html">Projects</a>
+<a class="font-code-sm text-code-sm text-primary border-b-2 border-primary pb-1" href="skills.html">Skills</a>
+<a class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors" href="#experience">Experience</a>
+<a class="font-code-sm text-code-sm text-on-surface-variant hover:text-primary transition-colors" href="contact.html">Contact</a>
+</div>
+<div class="hidden md:block">
+<a href="contact.html" class="bg-primary text-on-primary px-6 py-2 font-label-caps text-label-caps border border-primary hover:bg-transparent hover:text-primary transition-all inline-block">
+                Connect
+            </a>
+</div>
+<!-- Mobile Menu Button -->
+<button id="mobile-menu-btn" class="md:hidden text-primary focus:outline-none" aria-label="Toggle Menu">
+<span class="material-symbols-outlined text-[28px]">menu</span>
+</button>
+</div>
+
+<!-- Mobile Navigation Drawer -->
+<div id="mobile-menu" class="hidden fixed inset-0 z-50 bg-[#051424]/98 backdrop-blur-lg flex flex-col justify-center items-center gap-8 md:hidden transition-all duration-300">
+<!-- Close Button -->
+<button id="mobile-menu-close" class="absolute top-6 right-6 text-primary focus:outline-none" aria-label="Close Menu">
+<span class="material-symbols-outlined text-[32px]">close</span>
+</button>
+<a href="index.html" class="font-headline-lg text-headline-lg text-primary tracking-tighter mb-4">SHISH_MOHAMMAD</a>
+<a class="font-code-sm text-[18px] text-on-surface hover:text-primary transition-colors" href="projects.html">Projects</a>
+<a class="font-code-sm text-[18px] text-primary hover:text-primary transition-colors" href="skills.html">Skills</a>
+<a class="font-code-sm text-[18px] text-on-surface hover:text-primary transition-colors" href="#experience">Experience</a>
+<a class="font-code-sm text-[18px] text-on-surface hover:text-primary transition-colors" href="contact.html">Contact</a>
+<a href="contact.html" class="bg-primary text-on-primary px-8 py-3 mt-4 font-label-caps text-label-caps hover:bg-transparent hover:text-primary border border-primary transition-all">
+      Connect
+    </a>
+</div>
+</nav>
+
+<main class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12">
+<!-- Hero Section -->
+<section class="mb-20">
+<div class="inline-flex items-center gap-2 mb-4">
+<span class="terminal-dot bg-primary animate-pulse"></span>
+<span class="font-label-caps text-label-caps text-primary uppercase">System Identification: Technical Assets</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary mb-6">Expertise &amp; <br/>Career Trajectory</h1>
+<p class="max-w-2xl text-on-surface-variant font-body-lg text-body-lg">
+                A quantitative breakdown of cybersecurity competencies and professional progression. Data verified through rigorous field application and continuous vulnerability research.
+            </p>
+</section>
+<!-- Core Competencies (Bento Grid Style) -->
+<section class="mb-24">
+<div class="flex items-center justify-between mb-8">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Core Competencies</h2>
+<span class="font-code-sm text-code-sm text-outline">[ 03 LOADED ]</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Digital Forensics -->
+<div class="glass-card p-8 relative overflow-hidden group">
+<div class="scanline"></div>
+<div class="flex justify-between items-start mb-6">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="fingerprint">fingerprint</span>
+<span class="font-label-caps text-label-caps text-primary border border-primary/30 px-2 py-1">ELITE</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg mb-4 text-on-surface">Digital Forensics</h3>
+<p class="text-on-surface-variant mb-8 font-body-md text-body-md">Advanced incident response, memory analysis, and volatile data recovery in high-latency environments.</p>
+<div class="space-y-4">
+<div>
+<div class="flex justify-between font-code-sm text-code-sm mb-2">
+<span>RECOVERY ACCURACY</span>
+<span class="text-primary">98%</span>
+</div>
+<div class="h-1 bg-surface-variant overflow-hidden">
+<div class="h-full bg-primary w-[98%] shadow-[0_0_10px_rgba(78,222,163,0.5)] transition-all duration-1000"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-code-sm text-code-sm mb-2">
+<span>THREAT HUNTING</span>
+<span class="text-primary">92%</span>
+</div>
+<div class="h-1 bg-surface-variant overflow-hidden">
+<div class="h-full bg-primary w-[92%] shadow-[0_0_10px_rgba(78,222,163,0.5)]"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Network Security -->
+<div class="glass-card p-8 relative overflow-hidden group">
+<div class="scanline"></div>
+<div class="flex justify-between items-start mb-6">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="hub">hub</span>
+<span class="font-label-caps text-label-caps text-primary border border-primary/30 px-2 py-1">SENIOR</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg mb-4 text-on-surface">Network Security</h3>
+<p class="text-on-surface-variant mb-8 font-body-md text-body-md">Architecting zero-trust environments and implementing robust IDS/IPS systems for enterprise clusters.</p>
+<div class="space-y-4">
+<div>
+<div class="flex justify-between font-code-sm text-code-sm mb-2">
+<span>Z-TRUST ARCH</span>
+<span class="text-primary">95%</span>
+</div>
+<div class="h-1 bg-surface-variant overflow-hidden">
+<div class="h-full bg-primary w-[95%] shadow-[0_0_10px_rgba(78,222,163,0.5)]"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-code-sm text-code-sm mb-2">
+<span>ENCRYPTION PROTOCOLS</span>
+<span class="text-primary">88%</span>
+</div>
+<div class="h-1 bg-surface-variant overflow-hidden">
+<div class="h-full bg-primary w-[88%] shadow-[0_0_10px_rgba(78,222,163,0.5)]"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Ethical Hacking -->
+<div class="glass-card p-8 relative overflow-hidden group">
+<div class="scanline"></div>
+<div class="flex justify-between items-start mb-6">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="terminal">terminal</span>
+<span class="font-label-caps text-label-caps text-primary border border-primary/30 px-2 py-1">LEAD</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg mb-4 text-on-surface">Ethical Hacking</h3>
+<p class="text-on-surface-variant mb-8 font-body-md text-body-md">Systematic penetration testing, vulnerability discovery, and remediation strategies for cloud infrastructure.</p>
+<div class="space-y-4">
+<div>
+<div class="flex justify-between font-code-sm text-code-sm mb-2">
+<span>EXPLOIT DEV</span>
+<span class="text-primary">85%</span>
+</div>
+<div class="h-1 bg-surface-variant overflow-hidden">
+<div class="h-full bg-primary w-[85%] shadow-[0_0_10px_rgba(78,222,163,0.5)]"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-code-sm text-code-sm mb-2">
+<span>VULN ASSESSMENT</span>
+<span class="text-primary">99%</span>
+</div>
+<div class="h-1 bg-surface-variant overflow-hidden">
+<div class="h-full bg-primary w-[99%] shadow-[0_0_10px_rgba(78,222,163,0.5)]"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Professional Experience (Vertical Timeline) -->
+<section id="experience" class="mb-24 scroll-mt-24">
+<div class="flex items-center justify-between mb-12">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Professional Experience</h2>
+<div class="flex items-center gap-4">
+<span class="font-label-caps text-label-caps text-outline">FILTER: LATEST_FIRST</span>
+<span class="material-symbols-outlined text-primary" data-icon="filter_list">filter_list</span>
+</div>
+</div>
+<div class="relative">
+<!-- Timeline Thread -->
+<div class="absolute left-0 md:left-1/2 top-0 bottom-0 w-[1px] bg-outline-variant transform md:-translate-x-1/2"></div>
+<!-- Experience Item 1 -->
+<div class="relative mb-20">
+<div class="flex flex-col md:flex-row items-center">
+<div class="flex-1 md:pr-16 w-full md:text-right order-2 md:order-1 mt-6 md:mt-0">
+<div class="glass-card p-6 inline-block md:ml-auto w-full md:w-auto max-w-md">
+<span class="font-code-sm text-code-sm text-primary mb-2 block">PRESENT // 2022</span>
+<h4 class="font-headline-lg-mobile md:font-headline-lg text-on-surface mb-1">Lead Security Researcher</h4>
+<p class="text-on-surface-variant font-code-sm text-code-sm mb-4">CYBER_DYNE SYSTEMS</p>
+<ul class="text-on-surface-variant space-y-2 text-left md:text-right list-none font-body-md">
+<li>• Spearheading vulnerability research on Web3 protocols</li>
+<li>• Managed a team of 12 security analysts</li>
+<li>• Reduced system breaches by 64% in FY23</li>
+</ul>
+</div>
+</div>
+<div class="absolute left-[-4px] md:left-1/2 w-3 h-3 bg-primary rounded-full transform md:-translate-x-1/2 shadow-[0_0_10px_#4edea3] z-10"></div>
+<div class="flex-1 md:pl-16 hidden md:block order-3"></div>
+</div>
+</div>
+<!-- Experience Item 2 -->
+<div class="relative mb-20">
+<div class="flex flex-col md:flex-row items-center">
+<div class="flex-1 md:pr-16 hidden md:block"></div>
+<div class="absolute left-[-4px] md:left-1/2 w-3 h-3 bg-primary rounded-full transform md:-translate-x-1/2 shadow-[0_0_10px_#4edea3] z-10"></div>
+<div class="flex-1 md:pl-16 w-full order-2 mt-6 md:mt-0">
+<div class="glass-card p-6 inline-block w-full md:w-auto max-w-md">
+<span class="font-code-sm text-code-sm text-primary mb-2 block">2022 // 2020</span>
+<h4 class="font-headline-lg-mobile md:font-headline-lg text-on-surface mb-1">SOC Level III Analyst</h4>
+<p class="text-on-surface-variant font-code-sm text-code-sm mb-4">SENTINEL DEFENSE CORP</p>
+<ul class="text-on-surface-variant space-y-2 list-none font-body-md">
+<li>• Incident response lead for Fortune 500 clients</li>
+<li>• Automated threat detection using custom Python scripts</li>
+<li>• Conducted 50+ forensic deep-dives annually</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- Experience Item 3 -->
+<div class="relative mb-20">
+<div class="flex flex-col md:flex-row items-center">
+<div class="flex-1 md:pr-16 w-full md:text-right order-2 md:order-1 mt-6 md:mt-0">
+<div class="glass-card p-6 inline-block md:ml-auto w-full md:w-auto max-w-md">
+<span class="font-code-sm text-code-sm text-primary mb-2 block">2020 // 2018</span>
+<h4 class="font-headline-lg-mobile md:font-headline-lg text-on-surface mb-1">Junior Pen-Tester</h4>
+<p class="text-on-surface-variant font-code-sm text-code-sm mb-4">VOID_RECURSION LABS</p>
+<ul class="text-on-surface-variant space-y-2 text-left md:text-right list-none font-body-md">
+<li>• Conducted black-box testing on mobile applications</li>
+<li>• Discovered 3 zero-day vulnerabilities in popular CMS</li>
+<li>• Authored technical remediation reports for stakeholders</li>
+</ul>
+</div>
+</div>
+<div class="absolute left-[-4px] md:left-1/2 w-3 h-3 bg-primary rounded-full transform md:-translate-x-1/2 shadow-[0_0_10px_#4edea3] z-10"></div>
+<div class="flex-1 md:pl-16 hidden md:block order-3"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Stack Grid -->
+<section class="mb-24">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-8">Technical Stack</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+<div class="glass-card p-4 flex flex-col items-center gap-2 group cursor-default">
+<div class="w-10 h-10 bg-surface-variant flex items-center justify-center rounded-lg group-hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-primary" data-icon="code">code</span>
+</div>
+<span class="font-code-sm text-code-sm">PYTHON</span>
+</div>
+<div class="glass-card p-4 flex flex-col items-center gap-2 group cursor-default">
+<div class="w-10 h-10 bg-surface-variant flex items-center justify-center rounded-lg group-hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-primary" data-icon="dns">dns</span>
+</div>
+<span class="font-code-sm text-code-sm">KUBERNETES</span>
+</div>
+<div class="glass-card p-4 flex flex-col items-center gap-2 group cursor-default">
+<div class="w-10 h-10 bg-surface-variant flex items-center justify-center rounded-lg group-hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-primary" data-icon="security">security</span>
+</div>
+<span class="font-code-sm text-code-sm">WIRESHARK</span>
+</div>
+<div class="glass-card p-4 flex flex-col items-center gap-2 group cursor-default">
+<div class="w-10 h-10 bg-surface-variant flex items-center justify-center rounded-lg group-hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-primary" data-icon="storage">storage</span>
+</div>
+<span class="font-code-sm text-code-sm">METASPLOIT</span>
+</div>
+<div class="glass-card p-4 flex flex-col items-center gap-2 group cursor-default">
+<div class="w-10 h-10 bg-surface-variant flex items-center justify-center rounded-lg group-hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-primary" data-icon="cloud">cloud</span>
+</div>
+<span class="font-code-sm text-code-sm">AWS/GCP</span>
+</div>
+<div class="glass-card p-4 flex flex-col items-center gap-2 group cursor-default">
+<div class="w-10 h-10 bg-surface-variant flex items-center justify-center rounded-lg group-hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-primary" data-icon="settings_ethernet">settings_ethernet</span>
+</div>
+<span class="font-code-sm text-code-sm">REVERSE ENG</span>
+</div>
+</div>
+</section>
+<!-- Certifications & Verification -->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="glass-card p-8">
+<h3 class="font-headline-lg text-headline-lg mb-6 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="verified">verified</span>
+                    Certifications
+                </h3>
+<div class="space-y-4">
+<div class="flex justify-between items-center p-3 bg-surface-container-high border-l-4 border-primary">
+<div>
+<div class="font-code-sm text-code-sm text-on-surface">OSCP</div>
+<div class="text-[10px] text-outline">OFFENSIVE SECURITY</div>
+</div>
+<span class="font-label-caps text-label-caps text-primary">VERIFIED</span>
+</div>
+<div class="flex justify-between items-center p-3 bg-surface-container-high border-l-4 border-primary">
+<div>
+<div class="font-code-sm text-code-sm text-on-surface">CISSP</div>
+<div class="text-[10px] text-outline">(ISC)²</div>
+</div>
+<span class="font-label-caps text-label-caps text-primary">VERIFIED</span>
+</div>
+<div class="flex justify-between items-center p-3 bg-surface-container-high border-l-4 border-primary">
+<div>
+<div class="font-code-sm text-code-sm text-on-surface">GCFE</div>
+<div class="text-[10px] text-outline">GIAC FORENSICS</div>
+</div>
+<span class="font-label-caps text-label-caps text-primary">VERIFIED</span>
+</div>
+</div>
+</div>
+<!-- Terminal Activity Log -->
+<div class="glass-card bg-surface-container-lowest border-none relative overflow-hidden flex flex-col h-full min-h-[300px]">
+<div class="bg-surface-variant/80 px-4 py-2 flex items-center gap-2 border-b border-outline-variant">
+<div class="flex gap-1.5">
+<div class="w-3 h-3 rounded-full bg-error"></div>
+<div class="w-3 h-3 rounded-full bg-tertiary-container"></div>
+<div class="w-3 h-3 rounded-full bg-primary"></div>
+</div>
+<span class="text-[10px] font-code-sm text-on-surface-variant ml-2">activity_monitor.log</span>
+</div>
+<div class="p-4 font-code-sm text-code-sm text-primary/80 overflow-y-auto flex-grow h-48" id="terminal-output">
+<p class="mb-1 text-on-surface-variant">[2026-05-12 10:44:21] &gt;&gt; Initializing secure terminal...</p>
+<p class="mb-1 text-on-surface-variant">[2026-05-12 10:44:22] &gt;&gt; Loading technical competencies...</p>
+<p class="mb-1 text-primary">[SUCCESS] Digital Forensics module active.</p>
+<p class="mb-1 text-primary">[SUCCESS] Network Security protocols validated.</p>
+<p class="mb-1 text-on-surface-variant">[2026-05-12 10:44:23] &gt;&gt; Scanning professional history...</p>
+<p class="mb-1 text-primary">[LOG] Experience records mapped to timeline.</p>
+<p class="mb-1 text-on-surface-variant">[2026-05-12 10:44:25] &gt;&gt; Ready for connection.</p>
+<span class="inline-block w-2 h-4 bg-primary align-middle ml-1" id="cursor"></span>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer (Shared Component) -->
+<footer class="w-full py-12 bg-surface-dim border-t border-outline-variant mt-24">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-gutter opacity-80 hover:opacity-100 transition-opacity">
+<div class="font-label-caps text-label-caps text-terminal-emerald">
+                © 2026 SHISH MOHAMMAD // SECURED TERMINAL
+            </div>
+<div class="flex gap-8 font-code-sm text-code-sm">
+<a class="text-outline hover:text-primary transition-colors" href="https://github.com">GitHub</a>
+<a class="text-outline hover:text-primary transition-colors" href="https://linkedin.com">LinkedIn</a>
+<a class="text-outline hover:text-primary transition-colors" href="https://twitter.com">Twitter</a>
+<a class="text-outline hover:text-primary transition-colors" href="mailto:root@shish.io">Email</a>
+</div>
+</div>
+</footer>
+<script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenuClose = document.getElementById('mobile-menu-close');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        if (mobileMenuBtn && mobileMenu && mobileMenuClose) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.remove('hidden');
+                document.body.classList.add('overflow-hidden');
+            });
+            mobileMenuClose.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                document.body.classList.remove('overflow-hidden');
+            });
+            const mobileLinks = mobileMenu.querySelectorAll('a');
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    document.body.classList.remove('overflow-hidden');
+                });
+            });
+        }
+
+        // Terminal Cursor Animation
+        setInterval(() => {
+            const cursor = document.getElementById('cursor');
+            if (cursor) {
+                cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0';
+            }
+        }, 500);
+
+        // Simple Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                    entry.target.classList.remove('opacity-0', 'translate-y-4');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.glass-card').forEach(card => {
+            card.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-4');
+            observer.observe(card);
+        });
+
+        // Dynamic status updates in terminal simulation
+        const terminal = document.getElementById('terminal-output');
+        const statusMsgs = [
+            ">> Encrypted tunnel established...",
+            ">> Accessing skill-matrix.dat",
+            ">> Latency: 12ms",
+            ">> Status: COMPROMISE_DEFENSE_LEVEL_MAX",
+            ">> User authenticated: RECRUITER_ID_778"
+        ];
+        
+        let msgIndex = 0;
+        setInterval(() => {
+            if (msgIndex < statusMsgs.length) {
+                const p = document.createElement('p');
+                p.className = 'mb-1 text-on-surface-variant';
+                p.textContent = `[${new Date().toLocaleTimeString()}] ${statusMsgs[msgIndex]}`;
+                if (terminal && document.getElementById('cursor')) {
+                    terminal.insertBefore(p, document.getElementById('cursor'));
+                }
+                msgIndex++;
+                if (terminal) {
+                    terminal.scrollTop = terminal.scrollHeight;
+                }
+            }
+        }, 4000);
+
+        // Simple smooth scroll for on-page and cross-page anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    e.preventDefault();
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body></html>
